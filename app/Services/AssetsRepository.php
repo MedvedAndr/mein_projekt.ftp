@@ -198,7 +198,6 @@ class AssetsRepository {
         $options['href']    = is_string($options['href'])
             ? trim($options['href'])
             : null;
-        
         if (
             $options['id'] === null ||
             $options['id'] === '' ||
