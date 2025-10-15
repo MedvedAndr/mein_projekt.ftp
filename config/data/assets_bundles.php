@@ -208,4 +208,60 @@ return [
             ],
         ]
     ],
+    'tabs' => [
+        'styles' => [
+            [
+                'id'        => 'tabs',
+                'href'      => asset('/css/models/tabs.css'),
+                'priority'  => 500,
+            ],
+        ],
+        'scripts' => [
+            [
+                'id'        => 'jQuery',
+                'src'       => 'https://code.jquery.com/jquery-3.7.1.min.js',
+                'priority'  => 0,
+                'version'   => '3.7.1',
+            ],
+            [
+                'id'        => 'jQuery_extension__data_attributes',
+                'src'       => asset('/js/jQueryExtensions/DataAttributes.js'),
+                'priority'  => 1,
+                'version'   => '1.0.0',
+            ],
+            [
+                'id'        => 'tabs',
+                'src'       => asset('/js/models/tabs.js'),
+                'priority'  => 500,
+            ],
+        ]
+    ],
+    'accordions' => [
+        'styles' => [
+            [
+                'id'        => 'accordions',
+                'href'      => asset('/css/models/accordions.css'),
+                'priority'  => 500,
+            ],
+        ],
+        'scripts' => [
+            [
+                'id'        => 'jQuery',
+                'src'       => 'https://code.jquery.com/jquery-3.7.1.min.js',
+                'priority'  => 0,
+                'version'   => '3.7.1',
+            ],
+            [
+                'id'        => 'jQuery_extension__data_attributes',
+                'src'       => asset('/js/jQueryExtensions/DataAttributes.js'),
+                'priority'  => 1,
+                'version'   => '1.0.0',
+            ],
+            [
+                'id'        => 'accordions',
+                'src'       => asset('/js/models/accordions.js'),
+                'priority'  => 500,
+            ],
+        ]
+    ],
 ];
