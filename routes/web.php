@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\Main;
+use App\Http\Controllers\MainController;
 
-Route::controller(Main::class)->group(function() {
+Route::controller(MainController::class)->group(function() {
     Route::get('/', 'index')->name('index');
 });
