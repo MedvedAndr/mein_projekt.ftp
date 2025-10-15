@@ -12,7 +12,9 @@ class MainController extends Controller {
     public function index () {
         $template = [];
 
-        // $template[] = view('welcome');
+        $template[] = view('header');
+        $template[] = view('index');
+        $template[] = view('footer');
 
         return implode('', $template);
     }
