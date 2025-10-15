@@ -10,6 +10,10 @@ use Illuminate\Support\Facades\Blade;
 
 class Main extends Controller {
     public function index () {
-        dump(app('assets'));
+        $template = [];
+
+        // $template[] = view('welcome');
+
+        return implode('', $template);
     }
 }
