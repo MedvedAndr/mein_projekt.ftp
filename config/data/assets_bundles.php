@@ -5,47 +5,47 @@ return [
         'styles' => [
             [
                 'id'        => 'header',
-                'href'      => asset('/css/header.css'),
+                'href'      => '/css/header.css',
                 'priority'  => 1000,
             ],
             [
                 'id'        => 'footer',
-                'href'      => asset('/css/footer.css'),
+                'href'      => '/css/footer.css',
                 'priority'  => 1000,
             ],
             [
                 'id'        => 'main',
-                'href'      => asset('/css/main.css'),
+                'href'      => '/css/main.css',
                 'priority'  => 10000,
             ],
             [
                 'id'        => 'nav_panel',
-                'href'      => asset('/css/nav_panel.css'),
+                'href'      => '/css/nav_panel.css',
                 'priority'  => 1000,
             ],
             [
                 'id'        => 'modal',
-                'href'      => asset('/css/models/modal.css'),
+                'href'      => '/css/models/modal.css',
                 'priority'  => 500,
             ],
             [
                 'id'        => 'breadcrumbs',
-                'href'      => asset('/css/models/breadcrumbs.css'),
+                'href'      => '/css/models/breadcrumbs.css',
                 'priority'  => 600,
             ],
             [
                 'id'        => 'icons',
-                'href'      => asset('/css/models/icons.css'),
+                'href'      => '/css/models/icons.css',
                 'priority'  => 500,
             ],
             [
                 'id'        => 'animations',
-                'href'      => asset('/css/models/animations.css'),
+                'href'      => '/css/models/animations.css',
                 'priority'  => 500,
             ],
             [
                 'id'        => 'colors',
-                'href'      => asset('/css/models/colors.css'),
+                'href'      => '/css/models/colors.css',
                 'priority'  => 500,
             ],
         ],
@@ -58,23 +58,23 @@ return [
             ],
             [
                 'id'        => 'jQuery_extension__data_attributes',
-                'src'       => asset('/js/jQueryExtensions/DataAttributes.js'),
+                'src'       => '/js/jQueryExtensions/DataAttributes.js',
                 'priority'  => 1,
                 'version'   => '1.0.0',
             ],
             [
                 'id'        => 'main',
-                'src'       => asset('/js/main.js'),
+                'src'       => '/js/main.js',
                 'priority'  => 10000,
             ],
             [
                 'id'        => 'nav_panel',
-                'src'       => asset('/js/models/nav_panel.js'),
+                'src'       => '/js/models/nav_panel.js',
                 'priority'  => 500,
             ],
             [
                 'id'        => 'modal',
-                'src'       => asset('/js/models/modal.js'),
+                'src'       => '/js/models/modal.js',
                 'priority'  => 500,
             ],
         ]
@@ -83,77 +83,77 @@ return [
         'styles' => [
             [
                 'id'        => 'form__core',
-                'href'      => asset('/css/models/form/core.css'),
+                'href'      => '/css/models/form/core.css',
                 'priority'  => 500,
             ],
             [
                 'id'        => 'form__label',
-                'href'      => asset('/css/models/form/label.css'),
+                'href'      => '/css/models/form/label.css',
                 'priority'  => 500,
             ],
             [
                 'id'        => 'form__button',
-                'href'      => asset('/css/models/form/button.css'),
+                'href'      => '/css/models/form/button.css',
                 'priority'  => 500,
             ],
             [
                 'id'        => 'form__checkbox',
-                'href'      => asset('/css/models/form/checkbox.css'),
+                'href'      => '/css/models/form/checkbox.css',
                 'priority'  => 500,
             ],
             [
                 'id'        => 'form__datetime',
-                'href'      => asset('/css/models/form/datetime.css'),
+                'href'      => '/css/models/form/datetime.css',
                 'priority'  => 500,
             ],
             [
                 'id'        => 'form__edited_string',
-                'href'      => asset('/css/models/form/edited_string.css'),
+                'href'      => '/css/models/form/edited_string.css',
                 'priority'  => 500,
             ],
             [
                 'id'        => 'form__file',
-                'href'      => asset('/css/models/form/file.css'),
+                'href'      => '/css/models/form/file.css',
                 'priority'  => 500,
             ],
             [
                 'id'        => 'form__number',
-                'href'      => asset('/css/models/form/number.css'),
+                'href'      => '/css/models/form/number.css',
                 'priority'  => 500,
             ],
             [
                 'id'        => 'form__password',
-                'href'      => asset('/css/models/form/password.css'),
+                'href'      => '/css/models/form/password.css',
                 'priority'  => 500,
             ],
             [
                 'id'        => 'form__radio',
-                'href'      => asset('/css/models/form/radio.css'),
+                'href'      => '/css/models/form/radio.css',
                 'priority'  => 500,
             ],
             [
                 'id'        => 'form__select',
-                'href'      => asset('/css/models/form/select.css'),
+                'href'      => '/css/models/form/select.css',
                 'priority'  => 500,
             ],
             [
                 'id'        => 'form__text',
-                'href'      => asset('/css/models/form/text.css'),
+                'href'      => '/css/models/form/text.css',
                 'priority'  => 500,
             ],
             [
                 'id'        => 'form__textarea',
-                'href'      => asset('/css/models/form/textarea.css'),
+                'href'      => '/css/models/form/textarea.css',
                 'priority'  => 500,
             ],
             [
                 'id'        => 'form__togglebox',
-                'href'      => asset('/css/models/form/togglebox.css'),
+                'href'      => '/css/models/form/togglebox.css',
                 'priority'  => 500,
             ],
             [
                 'id'        => 'icons',
-                'href'      => asset('/css/models/icons.css'),
+                'href'      => '/css/models/icons.css',
                 'priority'  => 500,
             ],
         ],
@@ -166,13 +166,13 @@ return [
             ],
             [
                 'id'        => 'jQuery_extension__data_attributes',
-                'src'       => asset('/js/jQueryExtensions/DataAttributes.js'),
+                'src'       => '/js/jQueryExtensions/DataAttributes.js',
                 'priority'  => 1,
                 'version'   => '1.0.0',
             ],
             [
                 'id'        => 'form',
-                'src'       => asset('/js/models/form.js'),
+                'src'       => '/js/models/form.js',
                 'priority'  => 500,
             ],
         ]
@@ -181,12 +181,12 @@ return [
         'styles' => [
             [
                 'id'            => 'ckeditor',
-                'href'          => asset('/js/ckeditor5-43.2.0/ckeditor5/ckeditor5.css'),
+                'href'          => '/js/ckeditor5-43.2.0/ckeditor5/ckeditor5.css',
                 'priority'      => 500,
             ],
             [
                 'id'            => 'ckeditor_custom',
-                'href'          => asset('/css/models/form/ckeditor.css'),
+                'href'          => '/css/models/form/ckeditor.css',
                 'priority'      => 500,
             ],
         ],
@@ -199,7 +199,7 @@ return [
             ],
             [
                 'id'            => 'ckeditor_init',
-                'src'           => asset('/js/models/ckeditor_init.js'),
+                'src'           => '/js/models/ckeditor_init.js',
                 'priority'      => 600,
                 'version'       => '43.2.0',
                 'attributes'    => [
@@ -212,7 +212,7 @@ return [
         'styles' => [
             [
                 'id'        => 'tabs',
-                'href'      => asset('/css/models/tabs.css'),
+                'href'      => '/css/models/tabs.css',
                 'priority'  => 500,
             ],
         ],
@@ -225,13 +225,13 @@ return [
             ],
             [
                 'id'        => 'jQuery_extension__data_attributes',
-                'src'       => asset('/js/jQueryExtensions/DataAttributes.js'),
+                'src'       => '/js/jQueryExtensions/DataAttributes.js',
                 'priority'  => 1,
                 'version'   => '1.0.0',
             ],
             [
                 'id'        => 'tabs',
-                'src'       => asset('/js/models/tabs.js'),
+                'src'       => '/js/models/tabs.js',
                 'priority'  => 500,
             ],
         ]
@@ -240,7 +240,7 @@ return [
         'styles' => [
             [
                 'id'        => 'accordions',
-                'href'      => asset('/css/models/accordions.css'),
+                'href'      => '/css/models/accordions.css',
                 'priority'  => 500,
             ],
         ],
@@ -253,13 +253,13 @@ return [
             ],
             [
                 'id'        => 'jQuery_extension__data_attributes',
-                'src'       => asset('/js/jQueryExtensions/DataAttributes.js'),
+                'src'       => '/js/jQueryExtensions/DataAttributes.js',
                 'priority'  => 1,
                 'version'   => '1.0.0',
             ],
             [
                 'id'        => 'accordions',
-                'src'       => asset('/js/models/accordions.js'),
+                'src'       => '/js/models/accordions.js',
                 'priority'  => 500,
             ],
         ]
